@@ -1,0 +1,93 @@
+.register {
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: 90px;
+    gap: 16%;
+}
+
+.register-form {
+    color: #222;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    &-data {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+}
+
+.register-header {
+    margin-bottom: 20px;
+}
+
+.register-input {
+    padding: 16px;
+    color: #B1B1B1;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #B1B1B1;
+}
+
+.radio label {
+    margin-right: 20px;
+}
+.password-description {
+    color: #B1B1B1;
+    font-size: 13px;
+}
+
+.register-btn {
+    color: #FFF;
+    font-size: 14px;
+    padding: 16px 32px;
+    background-color: #F16D7F;
+    border: 1px solid #F16D7F;
+    cursor: pointer;
+
+    &:hover {
+        color:  #F16D7F;
+        background-color: #FFF;
+        transition: 0.3s;
+    }
+}
+
+.register-features {
+    
+
+    & h3 {
+        color: #000;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    & p {
+        color: #000;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    & ul li {
+        color: #000;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        list-style-image: url('img/marker.png');
+        list-style-position: inside;
+        margin-bottom: 20px;
+    }
+}

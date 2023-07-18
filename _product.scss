@@ -1,0 +1,113 @@
+.product-container {
+    height: 1400px;
+}
+
+.product {
+    width: 100%;
+    height: 750px;
+    background-color: #F7F7F7;
+
+    & img {
+        display: block;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    &-arrow {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        width: 50px;
+        height: 50px;
+        background-color: #D8D8D8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            cursor: pointer;
+        }
+
+        &:hover svg path{
+            fill:#F16D7F;
+        }
+
+        &-left {
+            left: 0;
+        }
+
+        &-right {
+            right: 0;
+        }
+    }
+
+    &-description-container {
+        position: relative;
+        height: 600px;
+    }
+
+    &-description {
+        height: 600px;
+        position: absolute;
+        top: -50px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        z-index: 1;
+        background-color: #FFFFFF;
+        padding: 15px;
+
+        
+    }
+
+    &-hr {
+        display: block;
+        width: 65px;
+        height: 3px;
+        border-bottom: 3px solid #EF5B70;
+        margin-bottom: 15px;
+    }
+    
+    & h2 {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+
+    & h3 {
+        color: #4D4D4D;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+
+    & p {
+        color: #5E5E5E;
+        text-align: center;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        max-width: 555px;
+        margin-bottom: 30px;
+    }
+
+    &-price {
+        font-size: 24px;
+    }
+
+  }
+
+  
