@@ -435,7 +435,7 @@ header {
     align-items: center;
 }
 
-.featured-all button {
+.featured-all a {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -446,7 +446,7 @@ header {
     border: 1px solid #FF6A6A;
 }
 
-.featured-all button:hover {
+.featured-all a:hover {
     background-color: #F26376;
     color: #fff;
     border: 1px solid #fff;
